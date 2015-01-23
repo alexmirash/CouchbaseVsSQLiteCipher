@@ -11,10 +11,10 @@ public abstract class BaseTestActivity extends Activity {
     @Override
     final protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TextView tv = new TextView(this);
-        tv.setBackgroundColor(giveMeAColorMaster());
-        tv.setText(getMyTitle());
-        setContentView(tv);
+        TextView textView = new TextView(this);
+        textView.setBackgroundColor(giveMeAColorMaster());
+        textView.setText(getMyTitle());
+        setContentView(textView);
         doSth();
     }
 

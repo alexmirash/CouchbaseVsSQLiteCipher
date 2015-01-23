@@ -6,11 +6,13 @@ import android.support.multidex.MultiDexApplication;
  * @author Mirash
  */
 public class HelloApplication extends MultiDexApplication {
+    public static final String LOG_TAG = "LOL";
+
     @Override
     public void onCreate() {
         super.onCreate();
-/*        Log.d("LOL", "loadLibs");
+/*        Log.d(LOG_TAG, "loadSqlLibs");
         SQLiteDatabase.loadLibs(this);
-        Log.d("LOL", "libsLoadedMyMaster");*/
+        Log.d(LOG_TAG, "SqlLibs'reLoadedMyMaster");*/
     }
 }

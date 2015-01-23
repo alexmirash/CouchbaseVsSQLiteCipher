@@ -7,6 +7,8 @@ import net.sqlcipher.database.SQLiteDatabase;
 
 import java.io.File;
 
+import static com.awesome.mirash.helloworld.HelloApplication.LOG_TAG;
+
 /**
  * @author Mirash
  */
@@ -18,9 +20,9 @@ public class SQLiteTestActivity extends BaseTestActivity {
 
     @Override
     protected void doSth() {
-        Log.d("LOL", "loadLibs");
+        Log.d(LOG_TAG, "loadLibs");
         SQLiteDatabase.loadLibs(this);
-        Log.d("LOL", "libs'reLoadedMyMaster");
+        Log.d(LOG_TAG, "libs'reLoadedMyMaster");
         File databaseFile = getDatabasePath("demo.db");
         databaseFile.mkdirs();
         databaseFile.delete();
@@ -28,7 +30,7 @@ public class SQLiteTestActivity extends BaseTestActivity {
         database.execSQL("create table t1(a, b)");
         database.execSQL("insert into t1(a, b) values(?, ?)", new Object[]{"one for the money",
                 "two for the show"});
-        Log.d("LOL", "initialized successfully " + database.getPageSize());
+        Log.d(LOG_TAG, "initialized successfully " + database.getPageSize());
 
     }
 }
