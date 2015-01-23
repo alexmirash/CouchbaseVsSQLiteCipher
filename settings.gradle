@@ -1,0 +1,3 @@
+include ':app', ':libraries:SQLite', ':libs:Couchbase'
+project(':libraries:SQLite').projectDir = new File('libraries/SQLiteLib/app')
+project(':libs:Couchbase').projectDir = new File('libraries/CouchbaseLib/app')
