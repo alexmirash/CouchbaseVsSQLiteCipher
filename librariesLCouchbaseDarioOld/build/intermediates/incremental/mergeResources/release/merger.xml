@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="main"><source path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\src\main\res"><file path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\src\main\res\values\donottranslate.xml" qualifiers=""><string name="app_name">CouchDBLib</string></file><file path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file></source><source path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\build\generated\res\rs\release"/><source path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="D:\Programming\Projects\Test\CouchbaseTest\HelloWorld\librariesLCouchbaseDarioOld\src\release\res"/></dataSet><mergedItems/></merger>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/libraries/CouchbaseLib/app/Couchbase.iml" filepath="$PROJECT_DIR$/libraries/CouchbaseLib/app/Couchbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/CouchbaseLibFromDarioOld/app/CouchbaseDarioOld.iml" filepath="$PROJECT_DIR$/libraries/CouchbaseLibFromDarioOld/app/CouchbaseDarioOld.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/SQLiteLib/app/SQLite.iml" filepath="$PROJECT_DIR$/libraries/SQLiteLib/app/SQLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />

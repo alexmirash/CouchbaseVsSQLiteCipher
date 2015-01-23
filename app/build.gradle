@@ -47,4 +47,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile project(':libs:Couchbase')
     compile project(':libraries:SQLite')
+//    compile project(':libraries:CouchbaseDarioOld')
 }

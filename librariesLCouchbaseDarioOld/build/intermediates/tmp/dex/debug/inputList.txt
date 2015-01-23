@@ -1,0 +1,7 @@
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\classes\debug
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5e690a92301045564c54664c1cb11f2b7432099d.jar
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.1.1-b6d80729045b7dc673bf2d02cd0ff747efde638e.jar
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-30bfeb4ebf37e2fb045f47c9ba1d9f8e343f0ffd.jar
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.1-c4c386d74f89a88f324a32d438ec514c79717ab2.jar
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\classes-91596ee9a8bbcc6724df1a089e31c50bf3046f7f.jar
+D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-databind-2.1.1-40f921a7b71219014e8065f0af79d0767c299998.jar

@@ -30,7 +30,7 @@ public class CouchDbTestActivity extends BaseTestActivity {
 
         Manager manager;
         try {
-            manager = new Manager(new AndroidContext(this), Manager.DEFAULT_OPTIONS);
+            manager = new Manager(/*getFilesDir(),*/ new AndroidContext(this), Manager.DEFAULT_OPTIONS);
             Log.d(TAG, "Manager created");
         } catch (IOException e) {
             Log.e(TAG, "Cannot create manager object");
@@ -48,8 +48,7 @@ public class CouchDbTestActivity extends BaseTestActivity {
         try {
             database = manager.getDatabase(dbname);
             Log.d(TAG, "Database created");
-
-        } catch (CouchbaseLiteException e) {
+        } catch (Exception /*CouchbaseLiteException*/ e) {
             Log.e(TAG, "Cannot get database");
             return;
         }

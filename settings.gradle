@@ -1,3 +1,4 @@
-include ':app', ':libraries:SQLite', ':libs:Couchbase'
+include ':app', ':libraries:SQLite', ':libs:Couchbase', ':libraries:CouchbaseDarioOld'
 project(':libraries:SQLite').projectDir = new File('libraries/SQLiteLib/app')
 project(':libs:Couchbase').projectDir = new File('libraries/CouchbaseLib/app')
+project(':libraries:CouchbaseDarioOld').projectDir = new File('libraries/CouchbaseLibFromDarioOld/app')

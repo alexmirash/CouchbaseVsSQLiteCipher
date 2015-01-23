@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/libraries" />
             <option value="$PROJECT_DIR$/libraries/CouchbaseLib/app" />
+            <option value="$PROJECT_DIR$/libraries/CouchbaseLibFromDarioOld/app" />
             <option value="$PROJECT_DIR$/libraries/SQLiteLib/app" />
             <option value="$PROJECT_DIR$/libs" />
           </set>

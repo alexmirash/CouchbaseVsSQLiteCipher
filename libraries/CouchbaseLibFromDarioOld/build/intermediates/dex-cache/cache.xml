@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\libs\jackson-annotations-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e72e7fb2b84f537af4278072bee514724d8d764">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.1.1-b6d80729045b7dc673bf2d02cd0ff747efde638e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mirash\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5e690a92301045564c54664c1cb11f2b7432099d.jar" />
+    </item>
+    <item
+        jar="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\libs\jackson-core-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="406cc89860cc70c3d072a174e810de890e2f03ef">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.1-c4c386d74f89a88f324a32d438ec514c79717ab2.jar" />
+    </item>
+    <item
+        jar="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-30bfeb4ebf37e2fb045f47c9ba1d9f8e343f0ffd.jar" />
+    </item>
+    <item
+        jar="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\classes-91596ee9a8bbcc6724df1a089e31c50bf3046f7f.jar" />
+    </item>
+    <item
+        jar="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\libs\jackson-databind-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c6563598bcdab9ef2f28cd09ffc750a6ae61bef">
+        <dex dex="D:\Programming\Projects\Test\CouchbaseTest\CouchbaseLibFromDarioOld\app\build\intermediates\pre-dexed\debug\jackson-databind-2.1.1-40f921a7b71219014e8065f0af79d0767c299998.jar" />
+    </item>
+
+</items>
