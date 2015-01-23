@@ -21,8 +21,10 @@ public class SQLiteTestActivity extends BaseTestActivity {
     @Override
     protected void doSth() {
         Log.d(LOG_TAG, "loadLibs");
+        //java.lang.UnsatisfiedLinkError: Couldn't load sqlcipher_android from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.awesome.mirash.helloworld-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.awesome.mirash.helloworld-1, /vendor/lib, /system/lib]]]: findLibrary returned null
         SQLiteDatabase.loadLibs(this);
         Log.d(LOG_TAG, "libs'reLoadedMyMaster");
+
         File databaseFile = getDatabasePath("demo.db");
         databaseFile.mkdirs();
         databaseFile.delete();

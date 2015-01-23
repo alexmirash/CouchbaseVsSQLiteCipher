@@ -3,11 +3,18 @@ package com.awesome.mirash.helloworld;
 import android.graphics.Color;
 import android.util.Log;
 
-/*import com.couchbase.lite.CouchbaseLiteException;
+import com.couchbase.lite.CouchbaseLiteException;
 import com.couchbase.lite.Database;
 import com.couchbase.lite.Document;
 import com.couchbase.lite.Manager;
-import com.couchbase.lite.android.AndroidContext;*/
+import com.couchbase.lite.android.AndroidContext;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class CouchDbTestActivity extends BaseTestActivity {
@@ -21,7 +28,7 @@ public class CouchDbTestActivity extends BaseTestActivity {
         final String TAG = HelloApplication.LOG_TAG;
         Log.d(TAG, "Begin Hello Couch");
 
-      /*  Manager manager;
+        Manager manager;
         try {
             manager = new Manager(new AndroidContext(this), Manager.DEFAULT_OPTIONS);
             Log.d(TAG, "Manager created");
@@ -101,6 +108,6 @@ public class CouchDbTestActivity extends BaseTestActivity {
             Log.e(TAG, "Cannot delete document", e);
         }
 
-        Log.d(TAG, "End Hello World Couch");*/
+        Log.d(TAG, "End Hello World Couch");
     }
 }
