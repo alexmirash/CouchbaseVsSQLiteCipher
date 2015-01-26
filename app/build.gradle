@@ -32,6 +32,24 @@ android {
         jumboMode = true
         javaMaxHeapSize "4g"
     }
+
+    productFlavors {
+        mirash {
+            ndk {
+                abiFilter "x86"
+                abiFilter "armeabi"
+            }
+        }
+    }
+
+/*    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi'
+            universalApk false
+        }
+    }*/
 }
 
 repositories {
